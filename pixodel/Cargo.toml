@@ -1,0 +1,15 @@
+[package]
+name = "pixodel"
+version = "0.1.0"
+authors = ["Valeriy Kazantsev <valeriy.kazantsev@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.3"
+wavefront_obj = "9.0.0"
+rayon = "1.5.1"
+lbvh = { path = "../lbvh" }
+geometry = { path = "../geometry" }
+
