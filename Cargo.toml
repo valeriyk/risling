@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"geometry",
+	"lbvh",
+	"pixodel"
+]
